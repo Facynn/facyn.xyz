@@ -2,6 +2,7 @@ import { Layout } from '../components/Layout';
 import styles from '../styles/all.module.css';
 import { getAllFilesMetaData } from '../library/mdx.js';
 import documentSetTitle from '../components/documentSetTitle';
+import Contact from '../components/Contact/Contact.jsx';
 
 export default function Home({ posts }) {
   documentSetTitle('Inicio • Facyn')
@@ -109,6 +110,19 @@ export default function Home({ posts }) {
               <div></div>
               <a href="/posts" className={styles.pageButton}>Ver todos</a>
         </div>
+        <div className={styles.pageConector}>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+        </div>
+        <h2 className={styles.pageSubtitle}>Contacto</h2>
+        <div className={styles.pageConectorMini}>
+              <div></div>
+              <div></div>
+        </div>
+        <Contact/>
       </Layout>
   )
 }

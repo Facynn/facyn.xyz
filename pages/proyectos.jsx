@@ -7,7 +7,7 @@ export default function Proyectos() {
   return (
       <Layout>
         <h1 className={styles.pageTitle}>Proyectos</h1>
-        <div className={styles.pageConectorMini}>
+        <div className={styles.pageConectorMini}>                           
               <div></div>
               <div></div>
         </div>
