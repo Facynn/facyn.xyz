@@ -16,7 +16,7 @@ const EmailResult = () => {
         const form = useRef();
         
         const sendEmail = () => {
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+        emailjs.sendForm('service_36ohjct', 'template_u4egz7w', form.current, 'c9ge7VQEXiM0jflnD')
           .then((result) => {
               console.log('[Facyn] Mail Enviado');
           }, (error) => {
