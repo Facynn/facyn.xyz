@@ -3,7 +3,7 @@ import styles from '../styles/all.module.css';
 import documentSetTitle from '../components/documentSetTitle';
 
 export default function Proyectos() {
-  documentSetTitle('Inicio • Facyn')
+  documentSetTitle('Proyectos • Facyn')
   return (
       <Layout>
         <h1 className={styles.pageTitle}>Proyectos</h1>
