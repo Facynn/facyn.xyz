@@ -2,6 +2,7 @@ import { Layout } from '../components/Layout';
 import styles from '../styles/all.module.css';
 import { getAllFilesMetaData } from '../library/mdx.js';
 import documentSetTitle from '../components/documentSetTitle';
+import Search from '../components/Search/Search';
 
 export default function Posts({ posts }) {
     documentSetTitle('Blogs • Facyn')
@@ -10,23 +11,12 @@ export default function Posts({ posts }) {
             <br />
             <br />
             <br />
-            <br />
-            <h1 class={styles.pageTitle}>Blogs</h1>
+            <h1 className={styles.pageTitle}>Blogs</h1>
             <div className={styles.pageConectorMini}>
               <div></div>
               <div></div>
             </div>
-            <div className={styles.posts}>
-            {posts.map((post) => (
-                <a href={`/posts/${post.slug}`}>
-                    <h3 title={post.title}>{post.title}</h3>
-                    <span>{post.date}</span>
-                    <p title={post.description}>{post.description}</p>
-                </a>
-            ))}
-            </div>
-            <br />
-            <br />
+            <Search />
             <br />
             <br />
         </Layout>

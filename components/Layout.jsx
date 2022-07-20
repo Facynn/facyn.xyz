@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import Head from 'next/head';
 import React, { Fragment, useEffect } from 'react';
 import styles from '../styles/all.module.css';

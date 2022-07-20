@@ -109,7 +109,7 @@
   padding: 20px;
 }
 
-.pageForm .inputForm, .pageForm textarea {
+.inputForm, .pageForm textarea {
   width: 100%;
   padding: 20px;
   border: none;
@@ -433,12 +433,10 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 20px;
   background: var(--text-color);
-  border: 3px solid #000;
   border-radius: 10px;
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 10px auto 0 auto;
 }
 
 .posts a {
@@ -473,6 +471,8 @@
   text-overflow: ellipsis;
   width: 100%;
 }
+
+
 
 /* Blog - Facyn */
 
@@ -739,7 +739,7 @@
     flex-direction: column;
   }
 
-  .pageTitle, .pageSubtitle, .aboutme, .skills, .moreAboutMe, .posts, .post, .postsRandom, .card, .pageNotfound, .pageConectorMini, .pageConector, .pageForm {
+  .pageTitle, .pageSubtitle, .aboutme, .skills, .moreAboutMe, .post, .postsRandom, .card, .pageNotfound, .pageConectorMini, .pageConector, .pageForm {
     width: 80%;
   }
 

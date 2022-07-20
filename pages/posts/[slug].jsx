@@ -5,6 +5,7 @@ import MDXComponents from '../../components/MDXComponents';
 import documentSetTitle from '../../components/documentSetTitle';
 import styles from '../../styles/all.module.css';
 
+
 export default function Post({ source, frontmatter }) {
     documentSetTitle(`${frontmatter.title} • Facyn`)
     return <Layout>
@@ -17,7 +18,7 @@ export default function Post({ source, frontmatter }) {
                 <MDXRemote {...source} components={MDXComponents}/>
             </div>
             <div className={styles.postMoreContent}>
-            <iframe src="https://discord.com/widget?id=924544084725608458&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <iframe src="https://discord.com/widget?id=924544084725608458&theme=white" width="350" height="500" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             <br />
             <div className={styles.pageLineDivisor}></div>
             <br />
@@ -51,8 +52,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const { source, frontmatter } = await getFileBySlug(params.slug);
-
-    return {
+    
+    return {    
         props: { source, frontmatter }
     }
+
 };

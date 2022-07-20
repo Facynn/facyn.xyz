@@ -16,7 +16,7 @@ const EmailResult = () => {
         const form = useRef();
         
         const sendEmail = () => {
-        emailjs.sendForm('service_36ohjct', 'template_u4egz7w', form.current, 'c9ge7VQEXiM0jflnD')
+        emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_EMAILJS_KEY)
           .then((result) => {
               console.log('[Facyn] Mail Enviado');
           }, (error) => {
