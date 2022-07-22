@@ -4,23 +4,23 @@
         <description><![CDATA[Articulos de tu preferencia, guías, diseños y demás sobre el desarrollo web.]]></description>
         <link>https://www.facyn.xyz</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Jul 2022 00:15:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Jul 2022 00:38:42 GMT</lastBuildDate>
         <atom:link href="https://www.facyn.xyz/rss/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2022 ©️ Facyn]]></copyright>
         <webMaster><![CDATA[Facyn]]></webMaster>
-        <item>
-            <title><![CDATA[Como activar el modo acrilico de la TERMINAL de WINDOWS.]]></title>
-            <description><![CDATA[Este sera un tutorial de como activar el modo acrilico de forma correcta.]]></description>
-            <link>https://www.facyn.xyz/posts/como-activar-transparencia-en-la-terminal</link>
-            <guid isPermaLink="true">https://www.facyn.xyz/posts/como-activar-transparencia-en-la-terminal</guid>
-            <pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Como hacer un CONTADOR de CLICKS con HTML, CSS Y JAVASCRIPT.]]></title>
             <description><![CDATA[En este blog voy a enseñarte a como hacer un contador de clicks fácil y rápido.]]></description>
             <link>https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</link>
             <guid isPermaLink="true">https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</guid>
             <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Como activar el modo acrilico de la TERMINAL de WINDOWS.]]></title>
+            <description><![CDATA[Este sera un tutorial de como activar el modo acrilico de forma correcta.]]></description>
+            <link>https://www.facyn.xyz/posts/como-activar-transparencia-en-la-terminal</link>
+            <guid isPermaLink="true">https://www.facyn.xyz/posts/como-activar-transparencia-en-la-terminal</guid>
+            <pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[¡La apertura de blogs!]]></title>
