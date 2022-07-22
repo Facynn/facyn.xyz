@@ -2,6 +2,7 @@ import { Layout } from '../components/Layout';
 import styles from '../styles/all.module.css';
 import { getAllFilesMetaData } from '../library/mdx.js';
 import documentSetTitle from '../components/documentSetTitle';
+import Social from '../components/Social/Social.jsx';
 import Contact from '../components/Contact/Contact.jsx';
 
 export default function Home({ posts }) {
@@ -21,20 +22,7 @@ export default function Home({ posts }) {
             <span>@Facyn</span>
             <p>Hola, mi nombre es <b>Facundo Grieco</b> alias <b>Facyn</b>! 😀 Me localizo en 📍 <b>Santa Fe, Argentina</b>, tengo 16 años y estoy estudiando en la escuela <b>EETP 275 (Escuela Educación Técnica N° 275)</b></p>
             <div className={styles.pageLineDivisor}></div>
-            <div className={styles.cardSocial}>
-              <a href="https://www.instagram.com/facynnn/" target="_blank">
-                <img src="/svg/icons/instagram.svg" alt="Instragram Icon" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=aSMORLgMC3I&t=3s" target="_blank">
-                <img src="/svg/icons/youtube.svg" alt="YouTube Icon" />
-              </a>
-              <a href="https://github.com/Facynn" target="_blank">
-                <img src="/svg/icons/github.svg" alt="GitHub Icon" />
-              </a>
-              <a href="https://discord.gg/M4mgKjfHXg" target="_blank">
-                <img src="/svg/icons/discord.svg" alt="Discord Icon" />
-              </a>
-            </div>
+            <Social />
           </div>
           <div className={styles.pageConector}>
               <div></div>
