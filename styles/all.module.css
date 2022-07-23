@@ -472,7 +472,12 @@
   width: 100%;
 }
 
-
+.posts a span {
+  width: 100%;
+  padding: 5px;
+  background: rgba(0, 0, 0, .1);
+  border-radius: 5px;
+}
 
 /* Blog - Facyn */
 

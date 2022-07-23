@@ -6,7 +6,8 @@ const Hits = ({ hits }) => (
         {hits.map(hit => (
             <a href={hit.link} key={hit.objectID}>
                 <h3 title={hit.title}>{hit.title}</h3>
-                <p title={hit.title}>{hit.title}</p>
+                <p title={hit.description}>{hit.description}</p>
+                <span title={hit.pubDate}>{hit.pubDate}</span>
             </a>
         ))}
     </div>
