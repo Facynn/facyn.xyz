@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import styles from '../../styles/all.module.css';
 import emailjs from '@emailjs/browser';
 import { Formik } from 'formik';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const EmailResult = () => {
     return (
@@ -66,7 +67,7 @@ const EmailResult = () => {
     }}
     >
     {({values, errors, touched, handleSubmit, handleChange, handleBlur}) => (
-    <form className={styles.pageForm} onSubmit={handleSubmit} ref={form}>
+    <form className={styles.pageForm} onSubmit={handleSubmit} ref={form} data-aos="flip-up">
       <input 
       type="text" 
       className={styles.inputForm}
