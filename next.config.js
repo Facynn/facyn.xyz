@@ -19,7 +19,7 @@ module.exports = {
             },
             {
                 source: '/social/discord',
-                destination: 'https://discord.com/invite/M4mgKjfHXg',
+                destination: 'https://discord.gg/T9xJRYWvjp',
                 permanent: true
             },
         ]
