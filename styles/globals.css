@@ -25,10 +25,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #fff;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   border: 2px solid #000;
+  background: var(--text-color);
   border-radius: 10px;
 }
