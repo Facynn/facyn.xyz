@@ -21,7 +21,6 @@ async function generateRss() {
         posts.map(async (file) => {
             const content = await fs.readFile(path.join(root, 'data', file));
             const frontmatter = matter(content);
-            console.log(frontmatter);
             const item = {
                 title: frontmatter.data.title,
                 description: frontmatter.data.description,
