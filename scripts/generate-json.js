@@ -13,7 +13,8 @@ async function generateJson() {
             title: frontmatter.data.title,
             description: frontmatter.data.description,
             date: frontmatter.data.date,
-            author: frontmatter.data.author
+            author: frontmatter.data.author,
+            url: `https://www.facyn.xyz/posts/${post.replace(/\.mdx?/, '')}`
         }
         postDataArray.push(postDataObj);
     })
