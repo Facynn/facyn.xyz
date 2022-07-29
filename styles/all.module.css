@@ -210,6 +210,22 @@
     border-right: 7px solid #000;
     cursor: pointer;
 }
+
+.pageLoading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10x;
+  margin: 10px auto 0 auto;
+}
+
+.pageLoading img {
+  width: 70px;
+  border-radius: 100%;
+}
+
 /* Menu de navegación - Facyn */
 
 .pageNavegation {
