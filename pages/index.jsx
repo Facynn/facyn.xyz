@@ -49,7 +49,7 @@ export default function Home({ posts }) {
               <div></div>
               <div></div>
         </div>
-        <div className={styles.skills} id="skills" data-aos="fade-left">
+        <div className={styles.skills} id="skills" data-aos="fade-down">
             <div className={styles.pageFlex}>
               <img src="/svg/icons/html5.svg" title="Lenguaje: HTML5" alt="HTML5 Icon" />
               <img src="/svg/icons/css3.svg" title="Lenguaje: CSS3" alt="CSS3 Icon" />
@@ -71,7 +71,7 @@ export default function Home({ posts }) {
               <div></div>
               <div></div>
         </div>
-        <div className={styles.moreAboutMe} data-aos="fade-left">
+        <div className={styles.moreAboutMe} data-aos="fade-down">
           <div className={styles.cardQuestion}>
             <span>¿Porque el nombre "Facyn"?</span>
             <div className={styles.response}>
