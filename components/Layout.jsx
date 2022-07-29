@@ -56,7 +56,7 @@ export function Layout({ children }) {
             <span>&bull;</span>
             <li><a href="/politicadecookies" target="_blank">Cookies</a></li>
             <span>&bull;</span>
-            <li><a href="https://discord.com/invite/M4mgKjfHXg" target="_blank">Soporte</a></li>
+            <li><a href="/social/discord" target="_blank">Soporte</a></li>
           </ul>
         </footer>
       </div>
