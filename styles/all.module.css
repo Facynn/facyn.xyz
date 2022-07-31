@@ -245,20 +245,19 @@
   gap: 20px;
   list-style: none;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .pageNavegation ul li a {
   color: #f4f4f4;
   text-decoration: none;
   padding: 10px;
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  transition: background .3s ease-in-out;
-  box-shadow: 0px 10px 63px -13px var(--secondary-color-transparent);
+  transition: all .3s ease;
 }
 
 .pageNavegation ul li a:hover {
-  background: var(--secondary-color-transparent)
+  border-bottom: 3px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .pageNavegation .pageLogo {

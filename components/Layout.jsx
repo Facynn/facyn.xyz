@@ -39,9 +39,9 @@ export function Layout({ children }) {
           <img className={styles.pageLogo} src="/facyn.ico" alt="Facyn Logo" />
         </a>
         <ul>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/proyectos">Proyectos</a></li>
-          <li><a href="/posts">Blog</a></li>
+          <li><a href="/">INICIO</a></li>
+          <li><a href="/proyectos">PROYECTOS</a></li>
+          <li><a href="/posts">BLOG</a></li>
         </ul>
       </nav>
 
