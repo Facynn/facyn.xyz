@@ -4,10 +4,17 @@
         <description><![CDATA[Articulos de tu preferencia, guías, diseños y demás sobre el desarrollo web.]]></description>
         <link>https://www.facyn.xyz</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Jul 2022 00:40:33 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jul 2022 23:17:59 GMT</lastBuildDate>
         <atom:link href="https://www.facyn.xyz/rss/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2022 ©️ Facyn]]></copyright>
         <webMaster><![CDATA[Facyn]]></webMaster>
+        <item>
+            <title><![CDATA[Como hacer un CONTADOR de CLICKS con HTML, CSS Y JAVASCRIPT.]]></title>
+            <description><![CDATA[En este blog voy a enseñarte a como hacer un contador de clicks fácil y rápido.]]></description>
+            <link>https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</link>
+            <guid isPermaLink="true">https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</guid>
+            <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Como activar el modo acrilico de la TERMINAL de WINDOWS.]]></title>
             <description><![CDATA[Este sera un tutorial de como activar el modo acrilico de forma correcta.]]></description>
@@ -23,18 +30,18 @@
             <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Como hacer un CONTADOR de CLICKS con HTML, CSS Y JAVASCRIPT.]]></title>
-            <description><![CDATA[En este blog voy a enseñarte a como hacer un contador de clicks fácil y rápido.]]></description>
-            <link>https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</link>
-            <guid isPermaLink="true">https://www.facyn.xyz/posts/como-hacer-un-contador-clicks</guid>
-            <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Tener una mejor estética en VISUAL STUDIO CODE.]]></title>
             <description><![CDATA[Lista de extensiones de temas y demás para tener tu visual studio mas lindo.]]></description>
             <link>https://www.facyn.xyz/posts/tener-una-mejor-estetica-en-vscode</link>
             <guid isPermaLink="true">https://www.facyn.xyz/posts/tener-una-mejor-estetica-en-vscode</guid>
             <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Crear un bot de discord]]></title>
+            <description><![CDATA[Una aplicación de discord la cual interactua con los usuarios de maneara programable.]]></description>
+            <link>https://www.facyn.xyz/posts/crear-un-bot-de-discord</link>
+            <guid isPermaLink="true">https://www.facyn.xyz/posts/crear-un-bot-de-discord</guid>
+            <pubDate>Sun, 31 Jul 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
