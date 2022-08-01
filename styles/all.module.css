@@ -251,13 +251,18 @@
 .pageNavegation ul li a {
   color: #f4f4f4;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 20px;
+  border: 3px solid #000;
+  background: var(--text-color);
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
   transition: all .3s ease;
 }
 
 .pageNavegation ul li a:hover {
-  border-bottom: 3px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
 }
 
 .pageNavegation .pageLogo {
