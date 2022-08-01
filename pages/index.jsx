@@ -32,7 +32,7 @@ export default function Home({ posts }) {
           <div className={styles.aboutme}>
             <img src="/facyn.ico" className={styles.cardLogo} alt="Facyn Logo" />
             <span>@Facyn</span>
-            <p>Hola, mi nombre es <b>Facundo Grieco</b> alias <b>Facyn</b>! 😀 Me localizo en 📍 <b>Santa Fe, Argentina</b>, tengo 16 años y estoy estudiando en la escuela <b>EETP 275 (Escuela Educación Técnica N° 275)</b></p>
+            <p>Hola, mi nombre es <b>Facundo Grieco</b> alias <b>Facyn</b>! 😀 Me localizo en 📍 <b>Santa Fe, Argentina</b>, tengo 17 años y estoy estudiando en la escuela <b>EETP 275 (Escuela Educación Técnica N° 275)</b></p>
             <div className={styles.pageLineDivisor}></div>
             <Social />
           </div>
