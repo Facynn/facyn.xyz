@@ -75,13 +75,13 @@ export default function Home({ posts }) {
           <div className={styles.cardQuestion}>
             <span>¿Porque el nombre "Facyn"?</span>
             <div className={styles.response}>
-              <p>Todo comenzo cuando un dia empeze a jugar Valorant (Juego similiar a el CS:GO), era en la epoca de fase "BETA", osea que el juego estaba en modo de prueba y opiniones de la gente. Como todo juego contas con un incio de sesión o crear una cuenta, especificamente yo debia crearme una y ahi fue cuando jugue con las letras de mi nombre real (Facundo) y agregue la famosa "Y" por la "U" y tambien abreviandolo, quedando asi el apodo "Facyn".</p>
+              <p>Todo comenzó cuando un día empecé a jugar Valorant (Juego similar al CS:GO), era en la época de fase "BETA", o sea que el juego estaba en modo de prueba y opiniones de la gente. Como todo juego cuentas con un inicio de sesión o crear una cuenta, específicamente yo debía crearme una y ahí fue cuando jugué con las letras de mi nombre real (Facundo) y agregue la famosa "Y" por la "U" y también abreviándolo, quedando así el apodo "Facyn".</p>
             </div>
           </div>
           <div className={styles.cardQuestion}>
             <span>¿Que me inspira a programar?</span>
             <div className={styles.response}>
-              <p>Me inspiro mucho en el contenido que veo el cual es muy frecuente, como tutoriales o proyectos que son muy entretenidos mayormente. Además ver mis propios logros es algo también que me inspira bastante.</p>
+              <p>Me inspiro mucho en el contenido que veo, el cual es muy frecuente, como tutoriales o proyectos que son muy entretenidos mayormente. Además, ver mis propios logros es algo también que me inspira bastante.</p>
             </div>
           </div>
         </div>
